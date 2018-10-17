@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import Form from '../Forms/Form'
 import Main from '../../hoc/Main'
+import Posts from '../Posts/Posts'
 
 class Layout extends Component{
     
@@ -11,6 +12,7 @@ class Layout extends Component{
         return (
             <Main>
                 <Form></Form>
+                <Posts></Posts>
             </Main>
         )
     }
