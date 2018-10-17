@@ -3,7 +3,7 @@ import Post from './Post/Post';
 
 const Posts = (props)=>{
     return(
-        <Post></Post>
+        <Post {...props}></Post>
     )
 }
 export default Posts; 
