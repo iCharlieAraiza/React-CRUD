@@ -3,7 +3,9 @@ import Post from './Post/Post';
 
 const Posts = (props)=>{
     return(
-        <Post {...props}></Post>
+        <div className="col-md-6 my-2 px-2">
+            <Post {...props}></Post>
+        </div>
     )
 }
 export default Posts; 

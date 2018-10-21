@@ -10,7 +10,7 @@ class App extends Component {
       <div className="App">
 
         <header className="text-center my-4">
-          <h1>First App</h1>
+          <h1>CRUD App</h1>
         </header>
 
         <main>              
